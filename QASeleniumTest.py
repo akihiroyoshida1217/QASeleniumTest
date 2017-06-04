@@ -15,7 +15,7 @@ def is_alert_present(wd):
 
 class QASeleniumTest(unittest.TestCase):
     def setUp(self):
-        # スナップショットやログ記録用のID取得
+        #スナップショットやログ記録用のID取得
         #self.testid = datetime.datetime.today().strftime("%Y%m%d-%H%M%S")
         self.testid0 = datetime.datetime.today().strftime("%m%d-%H%M")
         self.testid = self.testid0 + "00"
